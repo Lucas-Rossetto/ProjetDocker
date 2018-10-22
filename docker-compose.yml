@@ -1,0 +1,14 @@
+version: '3'
+services:
+
+  
+
+  adminer:
+    image: adminer
+    ports:
+      - 50000:80
+
+  database:
+    image : mariadb
+    environment:
+      - MYSQL_ROOT_PASSWORD=password
