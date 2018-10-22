@@ -1,7 +1,9 @@
 version: '3'
 services:
-
-  
+  web:
+    image: webdevops/php-apache-dev
+    ports:
+      - 30000:80
 
   adminer:
     image: adminer
