@@ -11,6 +11,6 @@ services:
       - 50000:80
 
   database:
-    image : mariadb
+    image: mariadb
     environment:
       - MYSQL_ROOT_PASSWORD=password
